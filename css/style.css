@@ -1,0 +1,223 @@
+:root{
+    scroll-behavior: auto;
+}
+/* ----------------------------- start home section ----------------------------- */
+.home{
+    height: 90vh;
+    background-image: url(../images/egyption\ party.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+.home .home-overlay{
+    height: 90vh;
+    background-color: rgba(214, 46, 51, 0.6);;
+}
+.home .home-overlay .home-content{
+    padding-top: 60px;
+    transition: margin-left 1s;
+}
+.home .home-overlay .home-content h1{
+    padding-top: 60px;
+    margin-top: 60px;
+    font-size: 60px;
+}
+.home .home-overlay .home-content .open{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 45vh;
+    left: 20px;
+    transition: 1s;
+}
+/* ----------------------------- start home nav section ----------------------------- */
+.home .home-overlay .home-nav{
+    position: fixed;
+    top: 0;
+    left: 0;   
+    height: 100%;
+    width: 250px;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 1s;
+    z-index: 1;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 0;
+
+}
+.home .home-overlay .home-nav .close{
+    position: absolute;
+    right: 35px;
+    top: 10px;
+    font-size: 20px;
+    color: #fff;
+    transition: 1s;
+}
+
+.home .home-overlay .home-nav a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: .5s;
+    color: white;
+}
+.home .home-overlay .home-nav a:hover{
+    color: rgba(214, 46, 51, 0.4);
+}
+/* ----------------------------- end home nav section ----------------------------- */
+/* ----------------------------- end home section ----------------------------- */
+/* ----------------------------- start duration section ----------------------------- */
+.duration{
+    margin-block: 40px;
+    padding-block: 40px;
+}
+.duration .container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.duration .container h3{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+    color: white;
+}
+.duration .container p{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+    margin: 0px;
+
+}
+.duration .container .special{
+    display: block;
+}
+/* ----------------------------- end duration section ----------------------------- */
+/* ----------------------------- start count section ----------------------------- */
+.count{
+    background-image: url(../images/count.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 300px;
+}
+.count .count-overlay{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(214, 46, 51, 0.6);
+    color: white;
+    text-align: center;
+}
+.count .count-overlay .container .row{
+    padding: 80px;
+}
+.count .count-overlay .container .row .col-md-3 .time{
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 500;
+    font-size: 30px;
+}
+/* ----------------------------- end count section ----------------------------- */
+/* ----------------------------- start contact section ----------------------------- */
+.contact{
+    margin-block: 50px;
+    padding-block: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.contact .container .contact-title h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.contact .container .contact-title p{
+    color:#777;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+.contact .container .row{
+    padding-top: 15px;
+}
+.contact .container .row .col-md-6 .contact-information h3{
+    color:#444;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact .container .row .col-md-6 .contact-information p{
+    font-size: 15px;
+    color:#777;
+    text-align: center;
+}
+.contact .container .row .col-md-6 .contact-information .contact-icons{
+    margin-top:50px;
+}
+.contact .container .row .col-md-6 .contact-information .contact-icons p{
+    margin-bottom: 35px;
+}
+.contact .container .row .col-md-6 .contact-information .contact-icons i{
+    margin-right: 20px;
+    color:#777;
+}
+.contact .container .row .col-md-6 .contact-information .contact-icons .speical{
+    color:#D62E33 !important;
+}
+.contact .container .row .col-md-6 .contact-information .contact-social{
+    margin-top:60px;
+    color:#777;
+}
+.contact .container .row .col-md-6 .contact-information .contact-social i{
+    width:40px;
+    height: 40px;    
+    margin-right: 10px;
+    text-align: center;
+    border:2px solid #999;
+    line-height: 40px;
+    cursor: pointer;
+}
+.contact .container .row .col-md-6 .contact-information .contact-social i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border-color:  #D62E33;
+}
+.contact .container .row .col-md-6 form input{
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.contact .container .row .col-md-6 form textarea{
+    height: 200px;
+    resize:vertical;
+    height: 200px;
+    resize:vertical;
+}
+.contact .container .row .col-md-6 form .characters{
+    font-size: 20px;
+    color: #D62E33;
+}
+.contact .container .row .col-md-6 form p{
+    padding-top: 10px;
+}
+.contact .container .row .col-md-6 form button{
+    border-radius: 0;
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    text-transform: uppercase
+}
+
+
+
+
+
+/* ----------------------------- end contact section ----------------------------- */
